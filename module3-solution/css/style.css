@@ -1,3 +1,7 @@
+
+* {
+  box-sizing: border-box;
+}
 body{
   font-family: 'Titillium Web', sans-serif;
   font-size: 15px;
@@ -63,7 +67,16 @@ body{
   color: #F7F7F7;
   text-shadow: 2px 2px 2px #200;
   margin-top: 32px;
-  margin-left: 3px;
+  margin-left: -3px;
+}
+#chicken-id{
+  font-family: 'Anton', sans-serif;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #F7F7F7;
+  text-shadow: 2px 2px 2px #200;
+  margin-top: 5px;
+  margin-left: -15px;
 }
  #text-icons {
   font-family: 'Anton', sans-serif;
@@ -85,6 +98,48 @@ body{
   margin-top: -30px;
 }
 /**********Home Page *********/
+.border {
+  background-color: #3F3F3F;
+  width: 99%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-top: 0;
+  font-size: 1.1em;
+  color: #F7F7F7;
+  text-shadow: 1px 1px 1px #200;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+.top-right-box{
+  width: 120px;
+  height: 30px;
+  float: right;
+  text-align: center;
+  color: black;
+  margin-top: -1px;
+  margin-right: -1px;
+  font-family: monospace;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: : 10px;
+}
+
+#p1{
+  background-color: #FFDE3B;
+}
+#p2{
+  background-color: #FF2E2E;
+}
+#p3{
+  background-color: #FF5F3F;
+}
+#p4{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
 .container .jumbotron {
   box-shadow: 0 0 30px #525252;
   border: 2px solid #525252;
@@ -201,11 +256,11 @@ body{
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1em;
     float: left;
-    margin: 0 45px auto;
+    margin: 0 40px auto;
   }
   #collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 2em;
-    margin-left: 5px;
+    margin-left: 4px;
   }
 
   #call-btn > a {
